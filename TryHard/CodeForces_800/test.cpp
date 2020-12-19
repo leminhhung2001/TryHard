@@ -18,6 +18,5 @@ int main(){
             cout << s << endl;
         }
         else cout << "-1" << endl;
-
     }
 }
