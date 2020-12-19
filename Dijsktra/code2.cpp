@@ -4,7 +4,7 @@ using namespace std;
 
 #define V 9 //Khởi tạo V = 9(Số nút của đồ thị)
 
-int minDistance(int dist[], bool sptSet[]){//Hàm tìm vị trí mà nó có khoảng cách ngắn nhất từ điểm được xét
+int minDistance(int dist[], bool sptSet[]){
     int min = INT_MAX, min_index;
     for(int v=0; v<V; v++){
         if(sptSet[v] == false && dist[v] <= min){//Điều kiện là điểm đấy chưa được xét và khoảng cách đến điểm ấy < khoảng cách đến các điểm khác
